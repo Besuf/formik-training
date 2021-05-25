@@ -1,10 +1,13 @@
 import MainComponent from "./components/MainComponent";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <MainComponent />
-    </div>
+    <BrowserRouter>
+      <div>
+        <MainComponent />
+      </div>
+    </BrowserRouter>
   );
 }
 
